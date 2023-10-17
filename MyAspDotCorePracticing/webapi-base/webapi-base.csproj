@@ -12,4 +12,19 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MyServices\MyServices.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Errors\AddHttpContextAccessor.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>AddHttpContextAccessor.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Service Include="{508349b6-6b84-4df5-91f0-309beebad82d}" />
+  </ItemGroup>
+
 </Project>

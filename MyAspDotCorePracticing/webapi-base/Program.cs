@@ -1,3 +1,4 @@
+using MyServices.Tools.IPChecker;
 using webapi_base.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +13,11 @@ builder.Services.AddSwaggerGen();
 //the dependency injection service container.
 builder.Services.Configure<Developer>(config.GetSection(nameof(Developer)));
 
+#region register services
+builder.Services.AddHttpContextAccessor();
 
+builder.Services.AddScoped<IIPCsisCheckerService, IPCsisCheckerService>();
+#endregion
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

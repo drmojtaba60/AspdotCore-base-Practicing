@@ -1,0 +1,21 @@
+﻿        private readonly ILogger _logger;
+        public IPCheckersController(ILogger logger)
+        {
+            _logger = logger;
+            
+        }
+
+System.InvalidOperationException: Unable to resolve service for type 
+'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'webapi_base.Controllers.IPCheckersController'.
+
+
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+==================================================================================
+   #for resolve Error
+        private readonly ILogger _logger;
+        public IPCheckersController(ILogger<IPCheckersController> logger)
+        {
+            _logger = logger;
+          
+        }

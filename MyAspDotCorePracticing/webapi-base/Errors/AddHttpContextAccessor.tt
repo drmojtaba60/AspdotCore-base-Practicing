@@ -1,0 +1,14 @@
+﻿An error occurred while starting the application.
+AggregateException: Some services are not able to be constructed 
+(Error while validating the service descriptor 'ServiceType: MyServices.Tools.IPChecker.IIPCsisCheckerService Lifetime:
+Scoped ImplementationType: MyServices.Tools.IPChecker.IPCsisCheckerService':
+
+
+Unable to resolve service for type 'Microsoft.AspNetCore.Http.IHttpContextAccessor' while attempting to activate 'MyServices.Tools.IPChecker.IPCsisCheckerService'.)
+Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection<ServiceDescriptor> serviceDescriptors, ServiceProviderOptions options)
+
+
+for resolve error
+in program.cs :
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddHttpContextAccessor();
