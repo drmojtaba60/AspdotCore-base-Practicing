@@ -1,3 +1,4 @@
+using MyServices.FakedServices;
 using MyServices.Tools.IPChecker;
 using webapi_base.Models;
 
@@ -17,6 +18,13 @@ builder.Services.Configure<Developer>(config.GetSection(nameof(Developer)));
 builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddScoped<IIPCsisCheckerService, IPCsisCheckerService>();
+
+builder.Services.AddScoped<FakeServicePractice0>();
+builder.Services.AddScoped<IFakeServicePracticeByInterface, FakeServicePracticeByInterface>();
+builder.Services.AddScoped<IFakeServicePracticeByInterface2>(_=>new FakeServicePracticeByInterface2("alireza"));
+builder.Services.AddScoped<IFakeServicePracticeByServiceProvider, FakeServicePracticeByServiceProvider>();
+
+
 #endregion
 var app = builder.Build();
 

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "1g9lCdFQYh9pWyTZdv7diV9+TXasPiwYq3Kb7g/N7G0W8L6og8X72NmFl0LHyOxwpLlvQhPv9s8RdQxVB7qnVw==",
+  "dgSpecHash": "qLHOyHKEVMuKpJVKQ1DohlCxU5fNOqiK3BCmWCtAHoUMuPa9m9OJuPrkzUscFMQvTU79RfE8seq2NtPq8ELQtA==",
   "success": true,
   "projectFilePath": "C:\\Users\\shaghi\\Projects\\GitHupProjects\\base-practice\\MyAspDotCorePracticing\\MyServices\\MyServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shaghi\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\shaghi\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\shaghi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\shaghi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
     "C:\\Users\\shaghi\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\shaghi\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
   ],

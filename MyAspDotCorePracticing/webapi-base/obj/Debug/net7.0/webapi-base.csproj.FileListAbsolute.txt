@@ -66,3 +66,4 @@ C:\Users\shaghi\Projects\GitHupProjects\base-practice\MyAspDotCorePracticing\web
 C:\Users\shaghi\Projects\GitHupProjects\base-practice\MyAspDotCorePracticing\webapi-base\obj\Debug\net7.0\ref\webapi-base.dll
 C:\Users\shaghi\Projects\GitHupProjects\base-practice\MyAspDotCorePracticing\webapi-base\bin\Debug\net7.0\MyServices.dll
 C:\Users\shaghi\Projects\GitHupProjects\base-practice\MyAspDotCorePracticing\webapi-base\bin\Debug\net7.0\MyServices.pdb
+C:\Users\shaghi\Projects\GitHupProjects\base-practice\MyAspDotCorePracticing\webapi-base\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll

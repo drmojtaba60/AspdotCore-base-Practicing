@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1a8cmzBvnw+Io+StB16SCMTqBPqNfenrUc0792PG1l1WkpOVORzoapaByF19Gvg4XK+8zhVtR/Tg/3LBwI+zBA==",
+  "dgSpecHash": "pAx3v1tlXSUCKSIo4XZXB3HONUssoVXgyEuh6QE50Jf2xfaQtZ0u2Rkb6w5BwaiySgzb2QSAyTWmOUx2X0zEUA==",
   "success": true,
   "projectFilePath": "C:\\Users\\shaghi\\Projects\\GitHupProjects\\base-practice\\MyAspDotCorePracticing\\webapi-base\\webapi-base.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\shaghi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\shaghi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\shaghi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\shaghi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
     "C:\\Users\\shaghi\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\shaghi\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\shaghi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
