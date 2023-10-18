@@ -59,12 +59,28 @@ namespace webapi_base.Controllers
         [HttpGet("call-services/service-provider-resolve2")]
         public async Task<IActionResult> GetUserNameServiceProvider()
         {
+            
             var fakedService = _serviceProvider.GetService<IFakeServicePracticeByServiceProvider>();//??new FakeServicePracticeByServiceProvider();
             return Ok(
                 new
                 {
 
                     MessageFromServiceProvicer = fakedService.GetMessage(),
+                });
+        }
+
+        [HttpGet("call-services/request-services")]
+        public async Task<IActionResult> GetUserNameServiceByRequestServices()
+        {
+            //IHttpContextAccessor httpContextAccessor;
+            //httpContextAccessor.HttpContext.RequestServices.GetService<IFakeServicePracticeByServiceProvider>();
+
+            var serviceResovledByContextRequestServiced= HttpContext.RequestServices.GetService<IFakeServicePracticeByServiceProvider>();
+            return Ok(
+                new
+                {
+
+                    MessageFromServiceProvicer = serviceResovledByContextRequestServiced.GetMessage(),
                 });
         }
 
